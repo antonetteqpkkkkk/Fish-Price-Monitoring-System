@@ -1,0 +1,18 @@
+# Enforce consistent line endings across OSes.
+# Git will normalize these files to LF in the repo and on checkout.
+
+* text=auto
+
+# Source files
+*.js   text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+*.css  text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.sql  text eol=lf
+*.toml text eol=lf
+
+# VS Code config
+.vscode/*.json text eol=lf

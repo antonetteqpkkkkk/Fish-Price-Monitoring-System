@@ -1,0 +1,9 @@
+fish_type,min_price,max_price,avg_price,date_updated
+Galunggong,0,0,0,2026-01-22
+Tamban,0,0,0,2026-01-22
+Tilapia,0,0,0,2026-01-22
+
+# Notes:
+# - Replace 0 with real prices.
+# - date_updated format: YYYY-MM-DD
+# - avg_price can be computed as (min_price + max_price)/2 if needed.
